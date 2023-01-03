@@ -76,7 +76,20 @@ body {
 .base {
     background-color: #F0F5FB;
 }
+/*
+end menu
+*/
 
+/*
+block-3
+*/
+.fon {
+    background-image: url("../img/advantages.png");
+    height: 374px;
+    padding: 0;
+    margin-top: 80px;
+    float: left;
+}
 
 /*
 footer
@@ -85,6 +98,7 @@ footer
     width: 0 auto;
     height: 336px;
     background-color: #18154B;
+    overflow: hidden;
 }
 
 .column {
@@ -94,7 +108,8 @@ footer
 }
 .column-2 {
     width: 25%;
-    float: left;
+    float: right;
+    color: #FFFFFF;
 }
 .footer__logo {
     margin-top: 70px;
@@ -112,12 +127,44 @@ footer
     font-size: 16px;
     font-weight: 700;
 }
-.footer a {
+.column a {
     text-decoration: none;
-    margin-bottom: 8px;
+    font-size: 15px;
+}
+.column-2 a {
+    text-decoration: none;
     font-size: 15px;
 }
 .footer a:hover {
     font-size: 16px;
     transition: 0.2s;
+}
+.footer__otstup {
+    margin-bottom: 8px;
+}
+
+.button_big {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    float: right;
+    color: #18154B;
+    background-color: #FFFFFF;    
+    padding: 15px 39px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 60px;
+    margin-bottom: 118px;
+}
+.button_big:hover {
+    background-color: #ccc8c8; 
+}
+
+.right__side {
+    float: right;
+    margin-bottom: 8px;
 }
